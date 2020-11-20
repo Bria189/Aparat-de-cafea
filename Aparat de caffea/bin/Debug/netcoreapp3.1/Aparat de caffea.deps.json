@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Aparat de caffea/1.0.0": {
+        "runtime": {
+          "Aparat de caffea.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Aparat de caffea/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

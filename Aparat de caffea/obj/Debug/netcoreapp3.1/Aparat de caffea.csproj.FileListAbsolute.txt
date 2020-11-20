@@ -1,0 +1,13 @@
+C:\C#\Bria189\Aparat-de-cafea\Aparat de caffea\bin\Debug\netcoreapp3.1\Aparat de caffea.exe
+C:\C#\Bria189\Aparat-de-cafea\Aparat de caffea\bin\Debug\netcoreapp3.1\Aparat de caffea.deps.json
+C:\C#\Bria189\Aparat-de-cafea\Aparat de caffea\bin\Debug\netcoreapp3.1\Aparat de caffea.runtimeconfig.json
+C:\C#\Bria189\Aparat-de-cafea\Aparat de caffea\bin\Debug\netcoreapp3.1\Aparat de caffea.runtimeconfig.dev.json
+C:\C#\Bria189\Aparat-de-cafea\Aparat de caffea\bin\Debug\netcoreapp3.1\Aparat de caffea.dll
+C:\C#\Bria189\Aparat-de-cafea\Aparat de caffea\bin\Debug\netcoreapp3.1\Aparat de caffea.pdb
+C:\C#\Bria189\Aparat-de-cafea\Aparat de caffea\obj\Debug\netcoreapp3.1\Aparat de caffea.csprojAssemblyReference.cache
+C:\C#\Bria189\Aparat-de-cafea\Aparat de caffea\obj\Debug\netcoreapp3.1\Aparat de caffea.AssemblyInfoInputs.cache
+C:\C#\Bria189\Aparat-de-cafea\Aparat de caffea\obj\Debug\netcoreapp3.1\Aparat de caffea.AssemblyInfo.cs
+C:\C#\Bria189\Aparat-de-cafea\Aparat de caffea\obj\Debug\netcoreapp3.1\Aparat de caffea.csproj.CoreCompileInputs.cache
+C:\C#\Bria189\Aparat-de-cafea\Aparat de caffea\obj\Debug\netcoreapp3.1\Aparat de caffea.dll
+C:\C#\Bria189\Aparat-de-cafea\Aparat de caffea\obj\Debug\netcoreapp3.1\Aparat de caffea.pdb
+C:\C#\Bria189\Aparat-de-cafea\Aparat de caffea\obj\Debug\netcoreapp3.1\Aparat de caffea.genruntimeconfig.cache
