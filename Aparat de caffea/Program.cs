@@ -7,11 +7,13 @@ using System.Threading.Tasks;
 namespace Aparat_de_cafea
 {
     class Program
-    {
+    { 
+        //introducerea variabilelor globale
         static int monede = 0;
         static int rest = 0;
         static char cazuri = 'O';
 
+        //introducerea functiei ce afiseaza in consola instructiunile de utilizare ale programului
         static void Instructiuni()
         {
             Console.WriteLine("Instructiuni de utilizare:");
@@ -24,6 +26,8 @@ namespace Aparat_de_cafea
             cazuri = char.Parse(Console.ReadLine());
             Console.Clear();
         }
+
+        //functie ce afiseaza mesajul initial pe "ecranul" aparatului
         private static void Mesajintro()
         {
 
@@ -35,43 +39,45 @@ namespace Aparat_de_cafea
             Console.WriteLine("Q        ");
         }
 
+        //cazul A
         private static void Alegere()
         {
 
-            if (monede < 20)
+            if (monede < 20) //daca numarul de monede disponibil este sub 20 atunci se trece la tratarea cazurilor
             {
 
-                Mesajintro();
+                Mesajintro(); //pentru a introduce dinnou o alta moneda
                 GetCoins();
                 switch (cazuri)
                 {
-                    case 'N':
+                    case 'N': //daca la suma se adauga 5 monede atunci se trce la cazul N unde va trata cazul B
                         monede = monede + 5;
                         AlegereB();
                         break;
-                    case 'D':
+                    case 'D': //daca la suma se adauga 10 monede atunci se trce la cazul D unde va trata cazul C
                         monede = monede + 10;
                         AlegereC();
                         break;
-                    case 'Q':
+                    case 'Q': //daca la suma se adauga 25 monede atunci se trce la cazul Q unde va trata cazul A
                         monede = monede + 25;
                         Alegere();
                         break;
-                    default:
+                    default: //in momentul in care suma din var "monede" nu corespunde cerintelor atunci se va relua alegerea
                         Console.WriteLine("Alegerea facuta nu poate fi acceptata. Incercati dinnou:");
                         Alegere();
                         break;
                 }
             }
-            else
+            else //daca monedele introduse au fost suficiente pentru achizitionarea produsului atunci
             {
-                Console.WriteLine("Va rugam sa ridicati produsul!");
+                Console.WriteLine("Va rugam sa ridicati produsul!"); //se va ridica produsul ales aflanduse restul
                 rest = monede - 20;
-                if (rest != 0)
+                if (rest != 0) // daca restul este diferit de 0 se va accesa functia Rest pentru a putea fi innapoiat
                     Rest();
             }
         }
 
+        //cazul B; liniile de cod identice cu cele de la cazul A, respecta aceleasi proceduri (implicit au acelasi comentariu)
         private static void AlegereB()
         {
 
@@ -110,9 +116,10 @@ namespace Aparat_de_cafea
 
         }
 
+        //Restituirea restului
         private static void Rest()
         {
-            monede -= 20;
+            monede = monede - 20;
             switch (rest)
             {
                 case 5:
@@ -137,6 +144,7 @@ namespace Aparat_de_cafea
             }
         }
 
+        //cazul C
         private static void AlegereC()
         {
             Mesajintro();
@@ -163,6 +171,7 @@ namespace Aparat_de_cafea
 
         }
 
+        //cazul D
         private static void AlegereD()
         {
 
@@ -193,12 +202,12 @@ namespace Aparat_de_cafea
 
         static void Main(string[] args)
         {
-            Instructiuni();
+            Instructiuni(); 
             
             Console.WriteLine("__________________________________________________________________________________________");
             Console.WriteLine();
             
-            Alegere();
+            Alegere(); 
 
             
         }
